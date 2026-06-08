@@ -1,0 +1,36 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+myenv/
+
+# Environment variables (containing Azure OpenAI keys)
+.env
+
+# Local SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Vector database persistence (ChromaDB)
+# These directories are often defined by CHROMA_PATH in your config
+chroma/
+db/
+
+# Project-specific temporary folder (used in file_loader.py)
+temp/
+
+# Streamlit configuration and secrets
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+# OS generated files
+.DS_Store
+desktop.ini
+Thumbs.db
